@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root{
+    --primary-font: 'Playfair Display', serif;
+    --second-font:  'Inter', sans-serif;
+    --praimary-color:#AB7F6A;
+    --sechond-color:#1F3F73;
+    --box-background: #FFFCFA;
+    --body-background: #FFFFFF;
+    --text-color-btn: #FFFFFF;
+    --text-color:rgba(102, 112, 133, 1);
+    --border-input:1px solid rgba(171, 127, 106, 0.3);
+    --border-redius-input: 8px;
+    --box-shadow-input:  0px 1px 2px rgba(16, 24, 40, 0.05);
+    --max-width:1024px;
+    --title-heading:3rem;
+    --subtitle-heading:1.5rem;
+    --title-paragraph:2rem;
+    --text-paragpraph:18px;
+    --title-box-services:20px;
+    --title-boxoservices-font-wight:500;
+    --text-form:1rem;
+
+ }
+
+ 
+ .navbarSupportedContent{
+
+ }
+ .navbar{
+    background-color: var(--box-background);
+    padding: 0;
+ }
+ .navbar .navbar-nav .nav-item {
+    color: var(--sechond-color);
+    font-size: 1.1rem;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+ 
+
+ }
+ .navbar .navbar-nav .nav-item .nav-link:active,
+ .navbar .navbar-nav .nav-item .nav-link:focus,
+ .navbar .navbar-nav .nav-item .nav-link:hover{
+  color: var(--praimary-color);
+
+ }
+ .navbar .navbar-nav .nav-item .nav-link {
+
+ }
+
+.navbar .navbar-nav .nav-item:first-child{
+    background-color: #AB7F6A;
+    color: var(--text-color-btn);
+    border-radius: var(--border-redius-input);
+
+ 
+   
+ }
+ .navbar .navbar-nav:first-child .nav-item .nav-link.navlink-active{
+    color: var(--text-color-btn);
+ 
+ }
+
+ .navbar-toggler i{
+    color: var(--praimary-color);
+    font-size: 1.5rem;
+ 
+}
+.navbar .navbar-toggler:focus   { 
+   box-shadow: none;
+   transform: scale(90%);
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+   text-transform: capitalize;
+}
+
+.navbar-nav{
+   padding: 0 3rem;
+}
+
+
+
+@media  (max-width:768px){
+   .navbar .navbar-nav .nav-item {
+      color: var(--sechond-color);  
+          font-size: 1rem;
+      
+   }
+
+   .navbar-nav{
+      padding: 1rem 0;
+   }
+
+}

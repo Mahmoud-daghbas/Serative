@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+:root{
+    --primary-font: 'Playfair Display', serif;
+    --second-font:  'Inter', sans-serif;
+    --praimary-color:#AB7F6A;
+    --sechond-color:#1F3F73;
+    --box-background: #FFFCFA;
+    --body-background: #FFFFFF;
+    --text-color-btn: #FFFFFF;
+    --text-color:rgba(102, 112, 133, 1);
+    --border-input:1px solid rgba(171, 127, 106, 0.3);
+    --border-redius-input: 8px;
+    --box-shadow-input:  0px 1px 2px rgba(16, 24, 40, 0.05);
+    --max-width:1024px;
+    --title-heading:3rem;
+    --subtitle-heading:1.5rem;
+    --title-paragraph:2rem;
+    --text-paragpraph:18px;
+    --title-box-services:20px;
+    --title-boxoservices-font-wight:500;
+    --text-form:1rem;
+
+ }
+
+
+
+@media  (max-width:768px){
+    .our-services , .our-works,.contact{
+        padding: 1rem 2rem;
+    }
+    
+
+ .title{
+    padding: 1rem;
+    font-size: 1.7em;
+    text-align: center;
+    margin: 1rem;
+    color: var(--praimary-color);
+  font-family:  'Playfair Display', serif;
+  font-weight: 800;
+ }
+
+a{
+    text-decoration: none;
+    color: var(--sechond-color);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+input{
+    outline:var(--sechond-color);
+}
+
+i{
+    color: var(--praimary-color);
+}
+
+  /* -------header --------- */
+.header .header_container .right-contant img{
+    width: 300x;
+    object-fit: cover;
+   
+  }
+
+  .header_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header .header_container .left-contant {
+    padding-left: 2rem;
+}
+  
+.header .header_container .title-heade{
+    font-size: 2.2rem;
+    line-height: 2.1rem;
+    color: var(--praimary-color);
+    
+}
+
+.header .header_container .subtitle-heade{
+    font-size: 0.6rem;
+    text-align: left;
+    color: var(--text-color);
+    font-family: 'Inter', sans-serif;
+    line-height: 1rem;
+    padding-left: 0;
+
+}
+
+.subtitle-heade {
+    margin: 0 ;
+}
+/* -------moblie --------- */  
+
+/* -------our services --------- */
+.servicies{
+    padding: 1rem 2rem;
+}
+ .container-s.container-services{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 0rem;
+ } 
+.box_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+   }
+  
+ .box_container .box_image{
+    margin: 0 1rem 0.5rem 0;
+ }
+  
+   .image_contact img {
+      display: none;
+     
+   }
+  
+   .box_container p{
+    display: block;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+    padding:  0 1.5rem;
+}
+    .box_container .contact{
+        gap: 0.3rem;
+    }
+    .box_container.open{
+        padding: 0;
+       
+    }
+    .box_container .contact i{
+        color: var(--praimary-color);
+    }
+  .contact i {
+        color: var(--praimary-color);
+    }
+
+  
+    .contant h3{
+        font-size: 0.9rem;
+        color: var(--sechond-color);
+    }
+
+/* -------our work --------- */
+
+.container-w.container-our-works{
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+
+.text-contant .title-of-contant {
+    color: var(--sechond-color);
+    font-size: 20px;
+    line-height: 2em;
+}
+.text-contant p{
+    font-size:12px;
+    line-height: 28px;
+    text-align: justify;
+    margin-bottom: 0;
+}
+
+.contact-form-title{
+    font-family: 'Inter', sans-serif;
+   
+}
+
+[class^="uil-"]:before, [class*=" uil-"]:before {
+    font-size: 2rem;
+   
+}
+
+
+
+/* -------moblie --------- */
+
+
+
+  /* -------contact --------- */
+  
+  .container-c.container-contact{
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 2rem;
+}
+
+  .box_image, .contact {
+    margin: 0; 
+}
+
+  .contact{
+    margin-top: 0;
+  }
+
+  .form-contant{
+    gap: 0.3rem;
+}
+
+.image-contact  img{
+ display: none;
+}
+
+  .contact-form-title {
+    color: var(--praimary-color);
+    font-size: 1.7rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+   }
+
+   .form-contant .form-contact-name {
+    display: block;
+    gap: 10.5rem;
+}
+    
+    .first-name{
+        padding-bottom: 0.7rem;
+    }
+
+    input[placeholder] {
+        font-size: 0.8rem;
+    }
+    .form-contant label{
+        font-size: 0.8rem;
+    }
+    
+    .checkcontainer1  {
+        display: grid;
+        grid-template-columns: 1fr ;
+        padding-bottom: 0.6rem;
+        gap: 0.5rem;
+       
+        }
+    .container-contact{
+        display: block;
+        
+    } 
+
+
+    .form-contant label {
+        font-size: 14px;
+        color: var(--sechond-color);
+        padding-left: 5px;
+        padding-bottom: 6px;
+    }
+
+    .button_send input {
+        background-color: var(--praimary-color);
+        color: var(--text-color-btn);
+        width: 100%;
+        padding: 0.4rem;
+    }
+
+/* -------moblie --------- */
+
+
+
+.footer .logofooter{
+    padding: 0;
+    }
+    
+     .footer{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 0.5rem;
+     }
+    
+     
+      
+      .button_send{
+        padding-top: 20px;
+      }
+      .logofooter img{
+        width: 80%;
+      }
+      
+.footer .logofooter{
+    padding-left: 2.9rem;
+  }
+
+}
